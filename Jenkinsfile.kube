@@ -90,7 +90,7 @@ spec:
                           buildctl build --frontend dockerfile.v0 \
                           --local context=. \
                           --local dockerfile=. \
-                          --output type=image,name=docker.io/xxxxxx/vote:${commitHash},push=true
+                          --output type=image,name=docker.io/salonijain059/vote:${commitHash},push=true
                         """
                     }
                 }
