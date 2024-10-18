@@ -60,7 +60,7 @@ spec:
 
         stage('Docker Build and Push with BuildKit') {
             when {
-                branch "main"
+                branch "master"
             }
             steps {
                 container('buildkit') {
